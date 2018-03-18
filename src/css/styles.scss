@@ -1,0 +1,26 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../node_modules/bootstrap/dist/css/bootstrap-theme.css';
+
+@import './partials/mixins';
+@import './partials/variables';
+
+@import './modules/app';
+
+.container {
+  form {
+    #list-item-input{
+      width: 50%;
+    }
+    .color {
+      color: red;
+    }
+  }
+  table {
+    margin: 20px 0;
+    tbody {
+      .completed {
+        text-decoration: line-through;
+      }
+    }
+  }
+}
