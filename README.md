@@ -1,5 +1,5 @@
-# todolist-react
-A simple todo list built on React framework.
+# ToDo list using React Redux
+A simple todo list built on Reactjs, Redux, Webpack, Scss.
 
 To install dependencies just do 
 After cloning,
